@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700");
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 0;
+}
+
+app {
+  z-index: 1;
+}
+
+app img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.cover-text {
+  position: absolute;
+  z-index: 4;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+.cover-text .cover-title {
+  font-size: 50pt;
+  text-transform: uppercase;
+}
+
+.cover-text .cover-options {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cover-text .cover-options .cover-item-calc {
+  transition: transform 2s, display 1s;
+  width: 20%;
+  height: 60%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: #B92D00;
+  border-radius: 50%;
+}
+
+.cover-text .cover-options .cover-item-calc:hover {
+  cursor: pointer;
+}
+
+.cover-text .cover-options .cover-item-calc h3 {
+  z-index: 44;
+  bottom: 5%;
+  text-align: center;
+  margin: 5%;
+  width: 100%;
+}
+
+.cover-text .cover-options .cover-item-calc img {
+  transition: display 2s;
+  z-index: 2;
+  width: 50%;
+}
+
+.option {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.option .options-all {
+  transition: opacity 2s;
+  border-radius: 10px;
+  opacity: 0;
+  background-color: #303030;
+  position: relative;
+  z-index: 3;
+  height: 70%;
+  width: 55%;
+  color: white;
+}
+
+.option .options-all .options-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.option .options-all .options-icons .options-bottons {
+  position: relative;
+}
+
+.option .options-all .options-icons .options-bottons img {
+  width: 70%;
+  padding-bottom: 10%;
+}
+
+.option .options-all .options-icons .options-bottons:hover {
+  cursor: pointer;
+}
+
+.option .options-all .options-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+.option .options-all .options-input, .option .options-all .options-answer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  height: 50vh;
+}
+
+.option .options-all .options-input p, .option .options-all .options-answer p, .option .options-all .options-input input, .option .options-all .options-answer input, .option .options-all .options-input button, .option .options-all .options-answer button {
+  margin: 5%;
+}
+
+.option .options-all .options-input input, .option .options-all .options-answer input {
+  width: 30%;
+  background-color: #303030;
+  border: solid #B92D00 2px;
+  color: white;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 11pt;
+  text-align: center;
+}
+
+.option .options-all .options-input .calculate, .option .options-all .options-answer .calculate {
+  text-transform: uppercase;
+  padding: 5%;
+  background-color: #B92D00;
+  border: none;
+  color: white;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 12pt;
+  letter-spacing: 4px;
+}
+
+.option .options-all .options-input .calculate:hover, .option .options-all .options-answer .calculate:hover {
+  cursor: pointer;
+}
+
+.option .options-all .options-answer {
+  width: 40%;
+  height: 50vh;
+}
+
+.option .options-all .options-answer p {
+  margin: 5%;
+}
+
+.option .options-all .options-title {
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.option .options-all img {
+  position: relative;
+  width: 3%;
+  padding: 0.5%;
+}
+ 
+
+ /*# sourceMappingURL= style.css.map */
